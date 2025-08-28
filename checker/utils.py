@@ -2,6 +2,7 @@
 import requests
 import hashlib
 from datetime import datetime
+from django.utils import timezone
 from .models import MonitoredPage
 
 def check_page(page: MonitoredPage):
@@ -19,7 +20,8 @@ def check_page(page: MonitoredPage):
             page.has_changed = False
 
         page.last_content_hash = new_hash
-        page.last_checked = datetime.now()
+        print(new_hash)
+        page.last_checked = timezone.now()
         page.save()
 
         return page.has_changed

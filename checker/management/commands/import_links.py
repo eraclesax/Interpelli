@@ -3,6 +3,13 @@ from django.core.management.base import BaseCommand
 from checker.models import MonitoredPage
 
 class Command(BaseCommand):
+    """
+    Import semplice:
+        python manage.py import_links links.txt
+    Import con reset (ricalcola tutto):
+        python manage.py import_links links.txt --reset
+    Se un link sparisce da links.txt, viene rimosso dal DB.
+    """
     help = "Importa link da un file di testo e sincronizza con il DB MonitoredPage"
 
     def add_arguments(self, parser):
@@ -20,7 +27,11 @@ class Command(BaseCommand):
         # === Leggi i link dal file ===
         try:
             with open(file_path, "r") as f:
-                links = {line.strip() for line in f if line.strip()}
+                links = {
+                    line.strip()
+                    for line in f
+                    if line.strip() and not line.strip().startswith("#")
+                }
         except FileNotFoundError:
             self.stdout.write(self.style.ERROR(f"File non trovato: {file_path}"))
             return
