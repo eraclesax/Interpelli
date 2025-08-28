@@ -17,8 +17,6 @@ def check_page(page: MonitoredPage, selector: str = "body"):
         response = requests.get(page.url, timeout=10)
         response.raise_for_status()
         html = response.text
-        print(html)
-        print("\n\n\n\n")
         soup1 = BeautifulSoup(html, "html.parser")
 
         # --- seleziona la parte rilevante ---
@@ -37,7 +35,6 @@ def check_page(page: MonitoredPage, selector: str = "body"):
                 tag.decompose()
 
         human_readed_html =  soup2.body.decode()
-        print(human_readed_html)
         # calcola hash del contenuto
         new_hash = hashlib.sha256(human_readed_html.encode("utf-8")).hexdigest()
 
