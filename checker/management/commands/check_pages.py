@@ -23,6 +23,7 @@ class Command(BaseCommand):
         counter = 0
         total = MonitoredPage.objects.count()
         for page in MonitoredPage.objects.all():
+            counter += 1
             changed = check_page(page)
             if changed:
                 self.stdout.write(self.style.SUCCESS(f"{counter}/{total} La pagina è cambiata: {page.url}"))
