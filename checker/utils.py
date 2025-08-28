@@ -31,7 +31,7 @@ def check_page(page: MonitoredPage, selector: str = "body"):
 
         soup2 = BeautifulSoup(relevant_html, "html.parser")
         # rimuovi div indesiderati
-        EXCLUDE_SELECTORS = ["div.realperson-challenge", "footer-visite-count", "script"]
+        EXCLUDE_SELECTORS = ["div.realperson-challenge", "span.footer-visite-count", "script"]
         for sel in EXCLUDE_SELECTORS:
             for tag in soup2.select(sel):
                 tag.decompose()
@@ -56,11 +56,12 @@ def check_page(page: MonitoredPage, selector: str = "body"):
         print(f"Errore con {page.url}: {e}")
         return False
     
-# https://nuvola.madisoft.it/bacheca-digitale/bacheca/TSPC02000N/1/IN_PUBBLICAZIONE/0/show
+
+# https://nuvola.madisoft.it/bacheca-digitale/bacheca/TSPC02000N/1/IN_PUBBLICAZIONE/0/show   
+# https://www.galileitrieste.it/albo-online
 # https://www.carduccidante.edu.it/albo-online?cerca=&categoria=0&tipo=albo-online&aoo=
 # https://www.voltatrieste.edu.it/albo-online
 # https://www.deledda-fabiani.it/albo-online
-# https://www.liceo-oberdan.edu.it/albo-online
 # https://www.trasparenzascuole.it/Public/APDPublic_ExtV2.aspx?CF=80020660322
 # https://www.trasparenzascuole.it/Public/APDPublic_ExtV2.aspx?CF=80019860321
 # https://www.trasparenzascuole.it/Public/APDPublic_ExtV2.aspx?CF=80017410327
