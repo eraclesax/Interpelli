@@ -1,4 +1,4 @@
-# Friuli
+## Friuli
 https://www.liceo-oberdan.edu.it/albo-online
 https://nuvola.madisoft.it/bacheca-digitale/bacheca/TSPC02000N/1/IN_PUBBLICAZIONE/0/show   
 https://www.galileitrieste.it/albo-online
@@ -39,3 +39,117 @@ https://www.isismagrinimarchetti.edu.it/servizio/la-segreteria-comunica/
 https://www.isislatisana.edu.it/albo-online
 https://web.spaggiari.eu/sdg2/AlboOnline/UDLS0002?page=1
 https://web.spaggiari.eu/sdg2/AlboOnline/UDLS0001
+
+## Veneto
+# Belluno
+https://www.portaleargo.it/albopretorio/online/#/?customerCode=SS17152
+https://www.portaleargo.it/albopretorio/online/#/?customerCode=SG26622
+https://www.portaleargo.it/albopretorio/online/#/?customerCode=SG19712
+https://liceibelluno.edu.it/tipologia-documento/albo-online/
+https://liceibelluno.edu.it/
+https://www.cadorescuola.edu.it/interpelli/
+https://www.portaleargo.it/albopretorio/online/#/?customerCode=SS16596
+https://www.portaleargo.it/albopretorio/online/#/?customerCode=SG20962
+# Padova
+https://web.spaggiari.eu/sdg2/Interpelli/PDII0018
+https://www.liceomodigliani.edu.it/albo-online
+https://www.iisvalle.edu.it/albo-online
+https://www.liceoartisticoselvatico.edu.it/albo-online
+https://www.iismarchesi.edu.it/albo-online?tipo=albo-online&cerca=&categoria=&storico=&aoo=&page=1
+https://www.liceotitolivio.edu.it/albo-online
+https://web.spaggiari.eu/sdg2/Interpelli/PDII0018
+https://www.istituto-scalcerle.edu.it/category/notizie/
+https://web.spaggiari.eu/sdg2/AlboOnline/PDII0004
+https://www.liceofermipadova.edu.it/albo-online
+https://www.istitutoeinstein.edu.it/albo-online
+https://www.rolandodapiazzola.edu.it/albo-online
+https://www.istitutoalberti.edu.it/albo-online
+https://www.cattaneo-mattei.edu.it/albo-online
+https://www.liceocuriel.edu.it/tipologia-articolo/notizie/
+https://www.jacopodamontagnana.edu.it/albo-online
+https://www.liceogalileogalilei.edu.it/albo-online
+https://www.liceocornaro.edu.it/albo-online
+https://www.istitutoeinstein.edu.it/albo-online
+https://www.educandatosanbenedetto.edu.it/albo-online
+https://www.liceoducadaosta.eu/pagine/avvisi-e-bandi
+https://www.liceolucreziocaro.edu.it/albo-online
+http://www.meuccifanoli.edu.it/index.php
+https://www.liceonievo.edu.it/albo-online
+
+## Uffici territoriali -----------------------------------
+
+# ABRUZZO
+# L'Aquila
+https://lnx.csalaquila.it/wp/category/interpelli/
+# Chieti - Pescara
+https://www.istruzionechietipescara.it/?s=interpello&submit=
+https://www.istruzionechietipescara.it/category/avvisi/
+# Teramo
+https://www.csateramo.it/wpusp/archive/category/docenti
+https://www.csateramo.it/wpusp/archive/category/news
+https://www.csateramo.it/wpusp/archive/category/convocazioni
+
+# BASILICATA
+https://www.mim.gov.it/web/basilicata/albo-on-line
+# Potenza
+https://www.istruzionepotenza.it/category/reclutamento/
+https://www.istruzionepotenza.it/bandi/
+# Matera
+https://www.istruzionematera.it/category/interpelli/
+
+# EMILIA ROMAGNA
+# Bologna
+https://bo.istruzioneer.gov.it/in-primo-piano/
+https://interpelloweb.it/interpelli-supplenze/istituto/boss000vd8/
+# Ferrara
+https://fe.istruzioneer.gov.it/category/interpelli_docenti/
+#  Forli-Cesena e Rimini
+https://fc.istruzioneer.gov.it/tutte-le-notizie/
+#https://fc.istruzioneer.gov.it/category/interpelli-a-s-2025-26/
+https://rn.istruzioneer.gov.it/category/personale-docente/interpelli_docenti/
+# Modena
+https://mo.istruzioneer.gov.it/category/interpelli-personale-docente-2024-25/
+# Parma e Piacenza
+https://pr.istruzioneer.gov.it/interpelli-2/
+https://pc.istruzioneer.gov.it/interpelli/
+# Ravenna
+https://ra.istruzioneer.gov.it/category/inter/
+# Reggio Emilia
+https://re.istruzioneer.gov.it/category/docenti/interpello/
+
+# FRIULI VENEZIA GIULIA
+# Gorizia
+https://usrfvg.gov.it/it/home/menu/uffici/ufficio-territoriale-di-gorizia/
+# Pordenone
+https://usrfvg.gov.it/it/home/menu/uffici/ufficio-territoriale-di-pordenone/
+# Trieste
+https://usrfvg.gov.it/it/home/menu/uffici/ufficio-territoriale-di-trieste/
+# Udine
+https://usrfvg.gov.it/it/home/menu/uffici/ufficio-territoriale-di-udine/
+
+# LAZIO
+# Viterbo
+https://www.provveditoratostudiviterbo.it/DOCENTI/interpelli/INTERPELLIDOC.htm
+# Roma
+https://www.atpromaistruzione.it/atp/category/reclutamento/interpelli-personale-docente/
+# Latina
+https://www.csalatina.it/interpelli/
+# Frosinone
+https://www.uspistruzione.fr.it/wp2/category/graduatorie
+https://www.uspistruzione.fr.it/wp2/category/graduatorie/interpello-nazionale
+# Rieti
+https://www.usp-rieti.it/228-2/
+
+# LIGURIA
+# Genova
+https://www.istruzionegenova.gov.it/pagine/interpelli-ge
+# Savona
+
+
+https://unica.istruzione.gov.it/sic?from=dettaglio
+https://www.mim.gov.it/usr
+https://www.istruzioneliguria.gov.it/pagine/interpelli-
+
+
+
+
