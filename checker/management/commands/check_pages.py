@@ -20,11 +20,13 @@ class Command(BaseCommand):
     def handle(self, *args, **kwargs):
         logger = logging.getLogger("app")
         logger.info(f"\nNuovo check: {timezone.now()}")
+        counter = 0
+        total = MonitoredPage.objects.count()
         for page in MonitoredPage.objects.all():
             changed = check_page(page)
             if changed:
-                self.stdout.write(self.style.SUCCESS(f"La pagina è cambiata: {page.url}"))
+                self.stdout.write(self.style.SUCCESS(f"{counter}/{total} La pagina è cambiata: {page.url}"))
                 logger.info(f"Cambiata: {page.url} (ultimo check: {page.last_checked})")
             else:
-                self.stdout.write(f"Nessun cambiamento: {page.url}")
-                
+                self.stdout.write(f"{counter}/{total} Nessun cambiamento: {page.url}")
+
