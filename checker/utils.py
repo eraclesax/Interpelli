@@ -31,8 +31,10 @@ def check_page(page: MonitoredPage, selector: str = "body"):
 
         soup2 = BeautifulSoup(relevant_html, "html.parser")
         # rimuovi div indesiderati
-        for tag in soup2.select("div.realperson-challenge"):
-            tag.decompose()
+        EXCLUDE_SELECTORS = ["div.realperson-challenge", "footer-visite-count", "script"]
+        for sel in EXCLUDE_SELECTORS:
+            for tag in soup2.select(sel):
+                tag.decompose()
 
         human_readed_html =  soup2.body.decode()
         print(human_readed_html)

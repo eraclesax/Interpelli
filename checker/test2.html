@@ -2920,7 +2920,7 @@ Liceo Scientifico Galileo Galilei Trieste
 </div>
 <div class="pt-4 pb-2">
 <ul class="list-inline text-left social">
-<li>Pagina visualizzata <span class="footer-visite-count">101115</span> volte</li>
+<li>Pagina visualizzata <span class="footer-visite-count">101117</span> volte</li>
 </ul>
 </div>
 </div>
@@ -3146,3 +3146,1694 @@ $('.cookiebar-container').remove();
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+<body>
+<a class="skip-link screen-reader-text" href="#maincontent">Salta al contenuto</a>
+<header class="it-header-wrapper">
+<div class="it-header-slim-wrapper">
+<div class="container">
+<div class="row">
+<div class="col-12">
+<div class="it-header-slim-wrapper-content">
+<div class="nav-mobile">
+<a href="https://www.miur.gov.it/" target="_blank" title="Link ministero istruzione"><img alt="Logo ministero istruzione" class="img-ministero" src="/pvw2/img/logo-ministero-black.png"/></a>
+</div>
+<!-- Sezione Autenticazione / Scelta Lingua -->
+<div class="header-slim-right-zone">
+<!-- multilang space -->
+<div class="nav-item dropdown">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+<img alt="Italiano" class="lang-icon" src="/pvw2/img/langs/it.png"/><span aria-hidden="true" class="d-none d-md-block ml-1">Italiano</span>
+<svg class="icon d-none d-lg-block">
+<use xlink:href="/pvw2/img/sprite.svg#it-expand"></use>
+</svg>
+</a>
+<div class="dropdown-menu">
+<div class="row">
+<div class="col-12">
+<div class="link-list-wrapper">
+<ul class="link-list">
+<li>
+<a class="list-item language_select active" data-lang="it" href="#">
+<img alt="Italiano" class="lang-icon" src="/pvw2/img/langs/it.png"/><span aria-hidden="true" class="ml-1">Italiano</span>
+</a>
+</li>
+<li>
+<a class="list-item language_select" data-lang="en" href="#">
+<img alt="English" class="lang-icon" src="/pvw2/img/langs/en.png"/><span aria-hidden="true" class="ml-1">English</span>
+</a>
+</li>
+<li>
+<a class="list-item language_select" data-lang="de" href="#">
+<img alt="Deutsch" class="lang-icon" src="/pvw2/img/langs/de.png"/><span aria-hidden="true" class="ml-1">Deutsch</span>
+</a>
+</li>
+<li>
+<a class="list-item language_select" data-lang="sl" href="#">
+<img alt="Slovenščina" class="lang-icon" src="/pvw2/img/langs/sl.png"/><span aria-hidden="true" class="ml-1">Slovenščina</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="it-access-top-wrapper">
+<button class="btn btn-primary btn-sm" data-target="#LoginModalForm" data-toggle="modal"><i aria-hidden="true" class="fa fa-user-circle"></i> Accedi</button>
+</div>
+</div>
+<!-- Modal cerca -->
+<div aria-hidden="true" aria-labelledby="searchModalTitle" class="modal fade" id="searchModal" role="dialog" style="display: none;" tabindex="-1">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<form action="/cerca" role="search">
+<div class="modal-header-fullsrc">
+<div class="container">
+<div class="row">
+<div class="col-11">
+<h2 class="modal-title" id="searchModalTitle">
+Cerca
+</h2>
+</div>
+<div class="col-1 pt-xl-3 pt-2">
+<button aria-hidden="false" aria-label="Chiudi ricerca" class="close" data-dismiss="modal" type="button">
+<svg class="icon">
+<use xlink:href="/pvw2/img/sprite.svg#it-close-big"></use>
+</svg>
+</button>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-body-search">
+<div class="container">
+<div aria-hidden="false" class="row">
+<div class="col-lg-12 col-md-12 col-sm-12">
+<div class="form-group">
+<div class="input-group">
+<label class="sr-only active" for="cerca-txt">Cerca</label>
+<input name="tipo" type="hidden" value="cerca"/>
+<input class="form-control" data-element="search-modal-input" id="cerca-txt" name="cerca_sito" placeholder="Cerca nel sito" type="text"/>
+<div class="input-group-append">
+<button class="btn btn-secondary mt-2" data-element="search-submit" type="submit">Cerca</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-12">
+</div>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+<!-- /Modal cerca -->
+<!-- Modal Login -->
+<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="LoginModalForm" role="dialog" tabindex="-1">
+<div class="modal-dialog" role="document">
+<div class="modal-content login-form">
+<div class="modal-testata text-center">
+<h3 class="modal-title w-100 dark-grey-text font-weight-bold my-3" id="myModalLabel"><strong>Accedi</strong></h3>
+<button aria-label="Close" class="close" data-dismiss="modal" type="button"><span class="sr-only">button close</span>
+<span aria-hidden="true">×</span>
+</button>
+</div>
+<div class="modal-body mx-4">
+<div class="md-form mb-5">
+<input class="form-control validate" id="accedi-mail" type="email"/>
+<label data-error="wrong" data-success="right" for="accedi-mail">Nome Utente</label>
+</div>
+<div class="md-form pb-3">
+<input class="form-control validate" id="accedi-pwd" type="password"/>
+<label data-error="wrong" data-success="right" for="accedi-pwd">Password</label>
+<p class="font-small color-text d-flex justify-content-end"><a class="color-text ml-1 pwd-reset" href="#">Password dimenticata?</a></p>
+</div>
+<div class="md-form pb-1">
+<div class="alert alert-danger accedi-error d-none" role="alert">
+</div>
+</div>
+<div class="text-center mb-3">
+<input class="btn color-box btn-block btn-rounded z-depth-1a btn-accedi" type="button" value="Accedi"/>
+</div>
+<div class="text-center mb-3">
+-
+</div>
+<div class="text-center mb-3">
+<a aria-expanded="false" aria-haspopup="true" class="spid_btn italia-it-button italia-it-button-size-m button-spid" href="#" onclick="window.location.href='https://web.spaggiari.eu/home/app/default/loginsp.php?act=spidLoginPV&amp;custcode=TSLS0001&amp;fin=https%3A%2F%2Fwww.galileitrieste.it%2Fpvw2%2Fapp%2Fdefault%2Fpvwauthspid.php%3Fact%3DloginSPID%26rel%3DaHR0cHM6Ly93d3cuZ2FsaWxlaXRyaWVzdGUuaXQvYWxiby1vbmxpbmU%3D'">
+<span class="italia-it-button-icon">
+<img alt="" onerror="this.src='/home/img/spid_btn/spid-ico-circle-bb.png'; this.onerror=null;" src="/home/img/spid_btn/spid-ico-circle-bb.svg"/>
+</span>
+<span class="italia-it-button-text">Entra con SPID</span>
+</a>
+<a aria-expanded="false" aria-haspopup="true" class="spid_btn italia-it-button italia-it-button-size-m button-spid" href="#" onclick="window.location.href='https://web.spaggiari.eu/home/app/default/loginsp.php?act=spidLoginPV&amp;custcode=TSLS0001&amp;fin=https%3A%2F%2Fwww.galileitrieste.it%2Fpvw2%2Fapp%2Fdefault%2Fpvwauthspid.php%3Fact%3DloginSPID%26rel%3DaHR0cHM6Ly93d3cuZ2FsaWxlaXRyaWVzdGUuaXQvYWxiby1vbmxpbmU%3D'">
+<span class="italia-it-button-icon">
+<img alt="" onerror="this.src='/home/img/cie-graphics-master/PNG/entra con cie.png'; this.onerror=null;" src="/home/img/cie-graphics-master/SVG/Logo_CIE_ID.svg"/>
+</span>
+<span class="italia-it-button-text">Entra con CIE</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- /Modal Login -->
+<!-- Modal selezione utente -->
+<div aria-hidden="true" aria-labelledby="myModalLabel2" class="modal fade" id="UserSelectModalForm" role="dialog" tabindex="-1">
+<div class="modal-dialog" role="document">
+<div class="modal-content login-form">
+<div class="modal-testata text-center">
+<h3 class="modal-title w-100 dark-grey-text font-weight-bold my-3" id="myModalLabel2"><strong>Seleziona utente</strong></h3>
+<button aria-label="Close" class="close" data-dismiss="modal" type="button"><span class="sr-only">button close</span>
+<span aria-hidden="true">×</span>
+</button>
+</div>
+<div class="modal-body mx-4">
+</div>
+</div>
+</div>
+</div>
+<!-- /Modal selezione utente -->
+<!-- Modal pwd dimenticata -->
+<div aria-hidden="true" aria-labelledby="myModalLabel3" class="modal fade" id="ForgotPwdModalForm" role="dialog" tabindex="-1">
+<div class="modal-dialog" role="document">
+<div class="modal-content login-form">
+<div class="modal-testata text-center">
+<h3 class="modal-title w-100 dark-grey-text font-weight-bold my-3" id="myModalLabel3"><strong>Recupero password</strong></h3>
+<button aria-label="Close" class="close" data-dismiss="modal" type="button"><span class="sr-only">button close</span>
+<span aria-hidden="true">×</span>
+</button>
+</div>
+<div class="modal-body mx-4">
+<form id="pvw-reminder-form">
+<div class="md-form pb-3">
+<input class="form-control validate" id="forgot-mail" name="eml" type="email"/>
+<label data-error="wrong" data-success="right" for="forgot-mail">E-mail</label>
+<small>Verrà inviato un messaggio all'indirizzo indicato con le istruzioni necessarie.</small>
+</div>
+<div class="md-form pb-1">
+<input class="captcha" name="captcha" placeholder="Codice di controllo" type="text"/>
+</div>
+<div class="md-form pb-1">
+<div class="alert alert-success reset-success d-none" role="alert">
+E-mail inviata, si prega di controllare la casella di posta elettronica!
+</div>
+</div>
+<div class="md-form pb-1">
+<div class="alert alert-danger reset-error d-none" role="alert">
+</div>
+</div>
+<div class="text-center mb-3">
+<input name="a" type="hidden" value="akRSPWRQ"/>
+<input class="btn color-box btn-block btn-rounded z-depth-1a btn-reminder" type="button" value="Invia"/>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<!-- /Modal pwd dimenticata -->
+<!-- Modal vari -->
+<div class="modal fade" data-backdrop="static" data-keyboard="false" id="error-modal" role="dialog" tabindex="-1">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<span class="modal-title"><strong>Errore</strong></span>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="col-12 text-center mt-1">
+<i aria-hidden="true" class="fas fa-times-circle error-modal-icon"></i>
+<p class="error-modal-text text-center mt-2 mb-0"></p>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button class="btn btn-secondary btn-azione" data-dismiss="modal" type="button">Chiudi</button>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" data-backdrop="static" data-keyboard="false" id="ok-modal" role="dialog" tabindex="-1">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<span class="modal-title"><strong>Successo</strong></span>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="col-12 text-center mt-1">
+<i aria-hidden="true" class="fas fa-check-circle ok-modal-icon"></i>
+<p class="ok-modal-text text-center mt-2 mb-0"></p>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button class="btn btn-secondary btn-azione" data-dismiss="modal" type="button">Chiudi</button>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" data-backdrop="static" data-keyboard="false" id="info-modal" role="dialog" tabindex="-1">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<span class="modal-title"><strong>Informazione</strong></span>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="col-12 text-center mt-1">
+<i aria-hidden="true" class="fas fa-info-circle info-modal-icon"></i>
+<p class="info-modal-text text-center mt-2 mb-0"></p>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button class="btn btn-secondary btn-azione" data-dismiss="modal" type="button">Chiudi</button>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" data-backdrop="static" data-keyboard="false" id="loading-modal" role="dialog" tabindex="-1">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<span class="modal-title" style="font-weight:bold">Attendere...</span>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="col-12 text-center py-5 px-5">
+<div class="d-flex justify-content-center">
+<div class="spinner-border" role="status"></div>
+</div>
+Attendere il completamento dell'operazione...
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div aria-hidden="true" class="modal fade" id="sp-event-modal" role="dialog" tabindex="-1">
+<div class="modal-dialog modal-xl" role="document">
+<div class="modal-content">
+<div class="modal-body mx-4">
+</div>
+<div class="modal-footer">
+<div class="btn-modal-fixed-top-right">
+<button class="btn btn-outline-secondary btn-modal-close" data-dismiss="modal" data-tooltip="tooltip" title="Chiudi" type="button">
+<span class="sr-only">Chiudi</span>
+<svg class="icon">
+<use xlink:href="/pvw2/img/sprite.svg#it-close-big"></use>
+</svg>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div aria-hidden="true" class="modal fade" id="content-modal" role="dialog" tabindex="-1">
+<div class="modal-dialog modal-xl" role="document">
+<div class="modal-content">
+<div class="modal-body">
+</div>
+<div class="modal-footer">
+<div class="btn-modal-fixed-top-right">
+<button class="btn btn-outline-secondary btn-modal-close" data-dismiss="modal" data-tooltip="tooltip" title="Chiudi" type="button">
+<span class="sr-only">Chiudi</span>
+<svg class="icon">
+<use xlink:href="/pvw2/img/sprite.svg#it-close-big"></use>
+</svg>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- /Modal vari -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="it-nav-wrapper">
+<div class="it-header-center-wrapper">
+<div class="container">
+<div class="row">
+<div class="col-12">
+<div class="it-header-center-content-wrapper">
+<div class="it-brand-wrapper">
+<a href="/" title="Torna alla homepage">
+<div>
+<span class="media">
+<img alt="Liceo Scientifico Galileo Galilei Trieste" class="align-self-center logo_scuola" src="https://scaling.spaggiari.eu/TSLS0001/logo/4975.png&amp;rs=%2FtccTw2MgxYfdxRYmYOB6HjkoZcUOGTiYi6QRxuVV5sOGTp63rmnr%2BRTYVh7%2BFO%2FGwXtspJHA9p4BXfBXCcE%2BNfMTv1f63V8Ma7anOoEpmr1vY686jQADlCXWoD41fhLPKDeb5KzEXlN3xj5VLED2HK76ruGkCrzhAMWUaH%2BXdg%3D"/>
+</span>
+</div>
+</a>
+</div>
+<div class="it-right-zone">
+<div class="it-search-wrapper">
+<div class="hidden-xs search" style="float:right;">
+<div class="pull-right">
+<span class="input-group-btn">
+<button aria-label="Apri ricerca" class="btn-search search-link rounded-icon" data-element="search-modal-button" data-target="#searchModal" data-toggle="modal" type="button">
+<svg class="icon">
+<use xlink:href="/pvw2/img/sprite.svg#it-search"></use>
+</svg>
+</button>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="it-hero-wrapper it-hero-small-size">
+<div class="img-responsive-wrapper">
+<div class="img-responsive">
+<div class="img-wrapper"><img alt="imagealt" src="https://scaling.spaggiari.eu/TSLS0001/testata/5347.png&amp;rs=%2FtccTw2MgxYfdxRYmYOB6JNETynI6XgUGJdKWcaJQmtjMPBgA7RgXzQ%2BninK22vKD%2BrUsslHMrL%2BVDXS0A5DggeZ6vbvdWBGkyyZitMfuk32TdPvWSycMSqXuBBvp9G3OKgouPZLNL9cSGPp0UG3hw%3D%3D" title="img title"/></div>
+</div>
+</div>
+</div>
+<div class="it-header-navbar-wrapper" id="navigation-bar">
+<div class="container">
+<div class="row">
+<div class="col-12">
+<nav aria-label="Menu principale" class="navbar navbar-expand-lg has-megamenu">
+<button aria-controls="nav10" aria-expanded="false" aria-label="Toggle navigation" class="custom-navbar-toggler" data-target="#nav10" type="button">
+<svg class="icon">
+<use xlink:href="/pvw2/img/sprite.svg#it-burger"></use>
+</svg>
+</button>
+<div class="navbar-collapsable" id="nav10">
+<div class="overlay"></div>
+<div class="close-div sr-only">
+<button class="btn close-menu" type="button"><span class="it-close"></span>close</button>
+</div>
+<div class="menu-wrapper">
+<ul class="navbar-nav" data-element="menu">
+<li class="nav-item dropdown">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+<span>Scuola</span>
+<svg class="icon icon-xs">
+<use xlink:href="/pvw2/img/sprite.svg#it-expand"></use>
+</svg>
+</a>
+<div class="dropdown-menu">
+<div class="link-list-wrapper">
+<ul class="link-list" data-element="school-submenu">
+<li class="d-none">
+<a class="list-item" data-element="overview" href="/panoramica/Scuola" target="_self">
+<span><strong>Panoramica</strong></span>
+</a>
+</li>
+<li>
+<a class="list-item" href="/pagine/presentazione" target="_self">
+<span>Presentazione</span>
+</a>
+</li>
+<li>
+<a class="list-item" data-element="school-locations" href="/pagine/i-luoghi" target="_self">
+<span>I luoghi</span>
+</a>
+</li>
+<li>
+<a class="list-item" href="/pagine/le-persone" target="_self">
+<span>Le persone</span>
+</a>
+</li>
+<li>
+<a class="list-item" href="/pagine/i-numeri-della-scuola" target="_self">
+<span>I numeri della scuola</span>
+</a>
+</li>
+<li>
+<a class="list-item" href="/pagine/le-carte-della-scuola" target="_self">
+<span>Le carte della scuola</span>
+</a>
+</li>
+<li>
+<a class="list-item" href="/pagine/organizzazione" target="_self">
+<span>Organizzazione</span>
+</a>
+</li>
+<li>
+<a class="list-item" href="/pagine/la-storia" target="_self">
+<span>La storia</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+<span>Servizi</span>
+<svg class="icon icon-xs">
+<use xlink:href="/pvw2/img/sprite.svg#it-expand"></use>
+</svg>
+</a>
+<div class="dropdown-menu">
+<div class="link-list-wrapper">
+<ul class="link-list" data-element="services-submenu">
+<li class="d-none">
+<a class="list-item" data-element="overview" href="/panoramica/Servizi" target="_self">
+<span><strong>Panoramica</strong></span>
+</a>
+</li>
+<li>
+<a class="list-item" data-element="service-type" href="/pagine/famiglie-e-studenti" target="_self">
+<span>Famiglie e studenti</span>
+</a>
+</li>
+<li>
+<a class="list-item" data-element="service-type" href="/pagine/personale-scolastico" target="_self">
+<span>Personale scolastico</span>
+</a>
+</li>
+<li>
+<a class="list-item" href="/pagine/percorsi-di-studio" target="_self">
+<span>Percorsi di studio</span>
+</a>
+</li>
+<li>
+<a class="list-item" href="/pagine/contributi-volontari-" target="_self">
+<span>Contributi volontari</span>
+</a>
+</li>
+<li>
+<a class="list-item" href="/pagine/segreterie-e-servizi" target="_self">
+<span>Segreteria e servizi </span>
+</a>
+</li>
+<li>
+<a class="list-item" href="/pagine/assicurazione" target="_self">
+<span>Assicurazione</span>
+</a>
+</li>
+<li>
+<a class="list-item" href="/pagine/informativa-privacy-" target="_self">
+<span>Privacy</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+<span>Novità</span>
+<svg class="icon icon-xs">
+<use xlink:href="/pvw2/img/sprite.svg#it-expand"></use>
+</svg>
+</a>
+<div class="dropdown-menu">
+<div class="link-list-wrapper">
+<ul class="link-list" data-element="news-submenu">
+<li class="d-none">
+<a class="list-item" data-element="overview" href="/panoramica/Novit%C3%A0" target="_self">
+<span><strong>Panoramica</strong></span>
+</a>
+</li>
+<li>
+<a class="list-item" href="/archivio-news" target="_self">
+<span>Le notizie</span>
+</a>
+</li>
+<li>
+<a class="list-item" href="/comunicati" target="_self">
+<span>Le circolari</span>
+</a>
+</li>
+<li>
+<a class="list-item" href="/pagine/calendario-eventi" target="_self">
+<span>Calendario eventi</span>
+</a>
+</li>
+<li>
+<a class="list-item" href="/albo-online" target="_self">
+<span>Albo online</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+<span>Didattica</span>
+<svg class="icon icon-xs">
+<use xlink:href="/pvw2/img/sprite.svg#it-expand"></use>
+</svg>
+</a>
+<div class="dropdown-menu">
+<div class="link-list-wrapper">
+<ul class="link-list" data-element="teaching-submenu">
+<li class="d-none">
+<a class="list-item" data-element="overview" href="/panoramica/Didattica" target="_self">
+<span><strong>Panoramica</strong></span>
+</a>
+</li>
+<li>
+<a class="list-item" href="/pagine/offerta-formativa" target="_self">
+<span>Offerta formativa</span>
+</a>
+</li>
+<li>
+<a class="list-item" href="/pagine/le-schede-didattiche" target="_self">
+<span>Le schede didattiche</span>
+</a>
+</li>
+<li>
+<a class="list-item" href="/pagine/i-progetti-delle-classi" target="_self">
+<span>I progetti delle classi</span>
+</a>
+</li>
+<li>
+<a class="list-item" href="/pagine/orientamento" target="_self">
+<span>Orientamento</span>
+</a>
+</li>
+<li>
+<a class="list-item" href="/pagine/la-scuola-veicolo-di-pari-opportunit" target="_self">
+<span>Educazione Civica</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+<span>Contatti</span>
+<svg class="icon icon-xs">
+<use xlink:href="/pvw2/img/sprite.svg#it-expand"></use>
+</svg>
+</a>
+<div class="dropdown-menu">
+<div class="link-list-wrapper">
+<ul class="link-list" data-element="custom-submenu">
+<li>
+<a class="list-item" href="/pagine/contatti" target="_self">
+<span>Contatti</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#" target="_self">
+<span></span>
+</a>
+</li>
+</ul>
+<div class="it-search-wrapper">
+<div class="hidden-desk search" style="float:left;">
+<div class="pull-right">
+<form action="/cerca" class="navbar-right" role="search">
+<div class="input-group search-shadow">
+<label class="sr-only" for="cerca-mobile">Campo di ricerca per le pagine del sito</label>
+<input name="tipo" type="hidden" value="cerca"/>
+<input class="form-control" id="cerca-mobile" name="cerca_sito" placeholder="Cerca nel sito" type="text"/>
+<span class="input-group-btn">
+<button class="btn-search search-link rounded-icon" type="submit">
+<svg class="icon">
+<use xlink:href="/pvw2/img/sprite.svg#it-search"></use>
+</svg>
+</button>
+</span>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main class="container pb-4 px-4 sfondo-pagina" id="maincontent">
+<nav aria-label="Percorso di navigazione" class="breadcrumb-container">
+<ol class="breadcrumb flex-wrap" data-element="breadcrumb">
+<li class="breadcrumb-item">
+<a href="/">Home</a>
+<span class="separator">&gt;</span>
+</li>
+<li class="breadcrumb-item">
+<a href="/panoramica/Novit%C3%A0?source=85">Novità</a>
+<span class="separator">&gt;</span>
+</li>
+<li class="breadcrumb-item">
+Albo Online
+</li>
+</ol>
+</nav>
+<div class="row contenuto-sito">
+<div class="pagina col-12 clearfix">
+<h1>Albo Online</h1>
+</div>
+</div>
+<section class="row amministrazione-trasparente sezione-albo-online">
+<div class="col-12 col-md-4 indice pr-4">
+<nav class="navbar navbar-expand-lg has-megamenu">
+<button aria-controls="content-index" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler mb-2" data-target="#content-index" data-toggle="collapse" type="button">
+<svg class="icon"><use xlink:href="/pvw2/img/sprite.svg#it-burger"></use></svg>
+Menu di navigazione
+</button>
+<div class="menu-laterale navbar-collapse collapse" id="content-index">
+<ul>
+<li class="base-parent">
+<div class="titolo">
+Categorie
+</div>
+<ul data-element="page-index">
+<li>
+<a class="" href="/albo-online?categoria=10001&amp;cerca=&amp;storico=&amp;aoo=">Avvisi </a>
+</li>
+<li>
+<a class="" href="/albo-online?categoria=10002&amp;cerca=&amp;storico=&amp;aoo=">Organi Collegiali </a>
+</li>
+<li>
+<a class="" href="/albo-online?categoria=10003&amp;cerca=&amp;storico=&amp;aoo=">Graduatorie 
+<span class="badge badge-light">2</span>
+</a>
+</li>
+<li>
+<a class="" href="/albo-online?categoria=10004&amp;cerca=&amp;storico=&amp;aoo=">Nomine personale </a>
+</li>
+<li>
+<a class="" href="/albo-online?categoria=10005&amp;cerca=&amp;storico=&amp;aoo=">Contabilità </a>
+</li>
+<li>
+<a class="" href="/albo-online?categoria=10006&amp;cerca=&amp;storico=&amp;aoo=">Bandi di gara 
+<span class="badge badge-light">1</span>
+</a>
+</li>
+<li>
+<a class="" href="/albo-online?categoria=10007&amp;cerca=&amp;storico=&amp;aoo=">Convenzioni </a>
+</li>
+<li>
+<a class="" href="/albo-online?categoria=10008&amp;cerca=&amp;storico=&amp;aoo=">Incarichi e consulenze </a>
+</li>
+<li>
+<a class="" href="/albo-online?categoria=10009&amp;cerca=&amp;storico=&amp;aoo=">Libri di testo </a>
+</li>
+<li>
+<a class="" href="/albo-online?categoria=10010&amp;cerca=&amp;storico=&amp;aoo=">Sicurezza </a>
+</li>
+<li>
+<a class="" href="/albo-online?categoria=10011&amp;cerca=&amp;storico=&amp;aoo=">Contratti </a>
+</li>
+<li>
+<a class="" href="/albo-online?categoria=10012&amp;cerca=&amp;storico=&amp;aoo=">Regolamenti </a>
+</li>
+<li>
+<a class="" href="/albo-online?categoria=10013&amp;cerca=&amp;storico=&amp;aoo=">Esami </a>
+</li>
+<li>
+<a class="" href="/albo-online?categoria=10014&amp;cerca=&amp;storico=&amp;aoo=">Altro </a>
+</li>
+<li>
+<a class="" href="/albo-online?categoria=10015&amp;cerca=&amp;storico=&amp;aoo=">Albo Altre PA </a>
+</li>
+<li>
+<a class="" href="/albo-online?categoria=10016&amp;cerca=&amp;storico=&amp;aoo=">Scrutini </a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+<div class="col-12 col-md-8 trasparenza-content">
+<div class="row mb-2">
+<div class="col-12">
+</div>
+</div>
+<div class="row mb-5">
+<div class="col-12">
+<form>
+<div class="row form-inline tabella-ricerca">
+<div class="col-12">
+<div class="input-group input-group-cerca">
+<div class="input-group-prepend">
+<span class="input-group-text">
+<button class="btn p-0 cts-cerca-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+</span>
+</div>
+<input class="form-control" id="input_ricerca_albo" name="cerca" placeholder="Cerca" type="text" value=""/>
+<div class="input-group-append">
+<select class="selectpicker dropdown-filtro" data-live-search="true" id="select_categorie" name="categoria">
+<option value="0">Tutte le tipologie</option>
+<option value="10001">Avvisi</option>
+<option value="10002">Organi Collegiali</option>
+<option value="10003">Graduatorie</option>
+<option value="10004">Nomine personale</option>
+<option value="10005">Contabilità</option>
+<option value="10006">Bandi di gara</option>
+<option value="10007">Convenzioni</option>
+<option value="10008">Incarichi e consulenze</option>
+<option value="10009">Libri di testo</option>
+<option value="10010">Sicurezza</option>
+<option value="10011">Contratti</option>
+<option value="10012">Regolamenti</option>
+<option value="10013">Esami</option>
+<option value="10014">Altro</option>
+<option value="10015">Albo Altre PA</option>
+<option value="10016">Scrutini</option>
+</select>
+</div>
+</div>
+</div>
+</div>
+<div class="col-12 checkbox-flex form-check d-none">
+<input class="checkbox_trasparenza" id="storico" name="storico" type="checkbox"/>
+<label for="storico">Cerca anche nell'archivio storico</label>
+</div>
+<input name="tipo" type="hidden" value="albo-online"/>
+<input name="aoo" type="hidden" value=""/>
+</form>
+</div>
+</div>
+<div class="media at-item w-100">
+<div class="media-left text-center">
+<h3 class="mb-0">137</h3>
+2025<br/>
+<img alt="icona documento" class="media-object" src="/pvw2/img/comunicati_sdg.png"/>
+</div>
+<div class="media-body overflow-hidden">
+
+Protocollo 4873/2025 del 27/08/2025
+
+
+<h3 class="media-heading mb-2 text-break">Decisione di contrarre  acquisto e rinnovo  licenze Office 365 ditta IS Copy </h3>
+<p></p>
+<ul class="list-group">
+<li class="list-group-item"><label>Pubblicato il:</label> <strong>28/08/2025</strong></li>
+<li class="list-group-item"><label>Tipologia:</label> <strong>Bandi di gara</strong></li>
+<li class="list-group-item"><label>Allegati:</label>
+<ul class="list-group">
+<li class="list-group-item mb-2">
+<div class="box-allegato-new box-allegato-padding2">
+<div class="row align-items-center">
+<div class="col">
+<p class="box-allegato-titolo">
+annotazione_DECISIONE DI CONTRARRE  acquisto e aggiornamento LICENZE OFFICE 365 IS COPY.pdf
+</p>
+</div>
+<div class="col-auto">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/193026260" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/193026260?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="media-right">
+<div class="box-allegato-new">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/193022187" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/193022187?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+<div class="media at-item w-100">
+<div class="media-left text-center">
+<h3 class="mb-0">136</h3>
+2025<br/>
+<img alt="icona documento" class="media-object" src="/pvw2/img/comunicati_sdg.png"/>
+</div>
+<div class="media-body overflow-hidden">
+
+Protocollo 4775/2025 del 18/08/2025
+
+
+<h3 class="media-heading mb-2 text-break">PUBBLICAZIONE ALBO ON LINE GRADUATORIE D'ISTITUTO DEFINITIVE DOCENTI  I II III FASCIA</h3>
+<p></p>
+<ul class="list-group">
+<li class="list-group-item"><label>Pubblicato il:</label> <strong>18/08/2025</strong></li>
+<li class="list-group-item"><label>Tipologia:</label> <strong>Graduatorie</strong></li>
+<li class="list-group-item"><label>Allegati:</label>
+<ul class="list-group">
+<li class="list-group-item mb-2">
+<div class="box-allegato-new box-allegato-padding2">
+<div class="row align-items-center">
+<div class="col">
+<p class="box-allegato-titolo">
+GRADUATORIA_ISTITUTO_AS48_TAB4__18082025.xls
+</p>
+</div>
+<div class="col-auto">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944558" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944558?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item mb-2">
+<div class="box-allegato-new box-allegato-padding2">
+<div class="row align-items-center">
+<div class="col">
+<p class="box-allegato-titolo">
+GRADUATORIA_ISTITUTO_AS48_TAB3__18082025.xls
+</p>
+</div>
+<div class="col-auto">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944559" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944559?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item mb-2">
+<div class="box-allegato-new box-allegato-padding2">
+<div class="row align-items-center">
+<div class="col">
+<p class="box-allegato-titolo">
+GRADUATORIA_ISTITUTO_AS2B_TAB4__18082025.xls
+</p>
+</div>
+<div class="col-auto">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944560" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944560?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item mb-2">
+<div class="box-allegato-new box-allegato-padding2">
+<div class="row align-items-center">
+<div class="col">
+<p class="box-allegato-titolo">
+GRADUATORIA_ISTITUTO_AS2B_TAB3__18082025.xls
+</p>
+</div>
+<div class="col-auto">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944561" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944561?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item mb-2">
+<div class="box-allegato-new box-allegato-padding2">
+<div class="row align-items-center">
+<div class="col">
+<p class="box-allegato-titolo">
+GRADUATORIA_ISTITUTO_AS01_TAB4__18082025.xls
+</p>
+</div>
+<div class="col-auto">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944562" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944562?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item mb-2">
+<div class="box-allegato-new box-allegato-padding2">
+<div class="row align-items-center">
+<div class="col">
+<p class="box-allegato-titolo">
+GRADUATORIA_ISTITUTO_AS01_TAB3__18082025.xls
+</p>
+</div>
+<div class="col-auto">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944563" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944563?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item mb-2">
+<div class="box-allegato-new box-allegato-padding2">
+<div class="row align-items-center">
+<div class="col">
+<p class="box-allegato-titolo">
+GRADUATORIA_ISTITUTO_A050_TAB4__18082025.xls
+</p>
+</div>
+<div class="col-auto">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944564" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944564?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item mb-2">
+<div class="box-allegato-new box-allegato-padding2">
+<div class="row align-items-center">
+<div class="col">
+<p class="box-allegato-titolo">
+GRADUATORIA_ISTITUTO_A050_TAB3__18082025.xls
+</p>
+</div>
+<div class="col-auto">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944565" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944565?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item mb-2">
+<div class="box-allegato-new box-allegato-padding2">
+<div class="row align-items-center">
+<div class="col">
+<p class="box-allegato-titolo">
+GRADUATORIA_ISTITUTO_A041_TAB4__18082025.xls
+</p>
+</div>
+<div class="col-auto">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944566" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944566?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item mb-2">
+<div class="box-allegato-new box-allegato-padding2">
+<div class="row align-items-center">
+<div class="col">
+<p class="box-allegato-titolo">
+GRADUATORIA_ISTITUTO_A027_TAB4__18082025.xls
+</p>
+</div>
+<div class="col-auto">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944567" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944567?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item mb-2">
+<div class="box-allegato-new box-allegato-padding2">
+<div class="row align-items-center">
+<div class="col">
+<p class="box-allegato-titolo">
+GRADUATORIA_ISTITUTO_A027_TAB3__18082025.xls
+</p>
+</div>
+<div class="col-auto">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944568" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944568?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item mb-2">
+<div class="box-allegato-new box-allegato-padding2">
+<div class="row align-items-center">
+<div class="col">
+<p class="box-allegato-titolo">
+GRADUATORIA_ISTITUTO_A026_TAB4__18082025.xls
+</p>
+</div>
+<div class="col-auto">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944569" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944569?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item mb-2">
+<div class="box-allegato-new box-allegato-padding2">
+<div class="row align-items-center">
+<div class="col">
+<p class="box-allegato-titolo">
+GRADUATORIA_ISTITUTO_A026_TAB3__18082025.xls
+</p>
+</div>
+<div class="col-auto">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944570" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944570?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item mb-2">
+<div class="box-allegato-new box-allegato-padding2">
+<div class="row align-items-center">
+<div class="col">
+<p class="box-allegato-titolo">
+GRADUATORIA_ISTITUTO_A019_TAB4__18082025.xls
+</p>
+</div>
+<div class="col-auto">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944571" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944571?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item mb-2">
+<div class="box-allegato-new box-allegato-padding2">
+<div class="row align-items-center">
+<div class="col">
+<p class="box-allegato-titolo">
+GRADUATORIA_ISTITUTO_A019_TAB3__18082025.xls
+</p>
+</div>
+<div class="col-auto">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944572" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944572?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item mb-2">
+<div class="box-allegato-new box-allegato-padding2">
+<div class="row align-items-center">
+<div class="col">
+<p class="box-allegato-titolo">
+GRADUATORIA_ISTITUTO_A011_TAB4__18082025.xls
+</p>
+</div>
+<div class="col-auto">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944573" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944573?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item mb-2">
+<div class="box-allegato-new box-allegato-padding2">
+<div class="row align-items-center">
+<div class="col">
+<p class="box-allegato-titolo">
+GRADUATORIA_ISTITUTO_A011_TAB3__18082025.xls
+</p>
+</div>
+<div class="col-auto">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944574" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944574?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item mb-2">
+<div class="box-allegato-new box-allegato-padding2">
+<div class="row align-items-center">
+<div class="col">
+<p class="box-allegato-titolo">
+GRADUATORIA_ISTITUTO_ADSS_TAB8__18082025.xls
+</p>
+</div>
+<div class="col-auto">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944575" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944575?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item mb-2">
+<div class="box-allegato-new box-allegato-padding2">
+<div class="row align-items-center">
+<div class="col">
+<p class="box-allegato-titolo">
+GRADUATORIA_ISTITUTO_ADSS_TAB7__18082025.xls
+</p>
+</div>
+<div class="col-auto">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944576" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944576?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item mb-2">
+<div class="box-allegato-new box-allegato-padding2">
+<div class="row align-items-center">
+<div class="col">
+<p class="box-allegato-titolo">
+graduatorie definitive I fascia istituto.xls
+</p>
+</div>
+<div class="col-auto">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944577" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944577?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item mb-2">
+<div class="box-allegato-new box-allegato-padding2">
+<div class="row align-items-center">
+<div class="col">
+<p class="box-allegato-titolo">
+annotazione_DECRETO PUBBLICAZIONE GRADUATORIE ISTITUTO 25.26.pdf
+</p>
+</div>
+<div class="col-auto">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192946979" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192946979?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="media-right">
+<div class="box-allegato-new">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944261" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/192944261?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+<div class="media at-item w-100">
+<div class="media-left text-center">
+<h3 class="mb-0">94</h3>
+2024<br/>
+<img alt="icona documento" class="media-object" src="/pvw2/img/comunicati_sdg.png"/>
+</div>
+<div class="media-body overflow-hidden">
+
+Protocollo 2312/2024 del 02/09/2024
+
+
+<h3 class="media-heading mb-2 text-break">PUBBLICAZIONE GRADUATORIE DEFINITIVE III FASCIA ATA</h3>
+<p></p>
+<ul class="list-group">
+<li class="list-group-item"><label>Pubblicato il:</label> <strong>02/09/2024</strong></li>
+<li class="list-group-item"><label>Tipologia:</label> <strong>Graduatorie</strong></li>
+<li class="list-group-item"><label>Allegati:</label>
+<ul class="list-group">
+<li class="list-group-item mb-2">
+<div class="box-allegato-new box-allegato-padding2">
+<div class="row align-items-center">
+<div class="col">
+<p class="box-allegato-titolo">
+GRADUATORIA_DEFINITIVA_AA_TSPS02000R__02092024 (1).xls
+</p>
+</div>
+<div class="col-auto">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/187736666" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/187736666?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item mb-2">
+<div class="box-allegato-new box-allegato-padding2">
+<div class="row align-items-center">
+<div class="col">
+<p class="box-allegato-titolo">
+GRADUATORIA_DEFINITIVA_AT_TSPS02000R__02092024.xls
+</p>
+</div>
+<div class="col-auto">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/187736667" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/187736667?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item mb-2">
+<div class="box-allegato-new box-allegato-padding2">
+<div class="row align-items-center">
+<div class="col">
+<p class="box-allegato-titolo">
+GRADUATORIA_DEFINITIVA_CS_TSPS02000R__02092024.xls
+</p>
+</div>
+<div class="col-auto">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/187736668" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/187736668?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item mb-2">
+<div class="box-allegato-new box-allegato-padding2">
+<div class="row align-items-center">
+<div class="col">
+<p class="box-allegato-titolo">
+GRADUATORIA_DEFINITIVA_OS_TSPS02000R__02092024.xls
+</p>
+</div>
+<div class="col-auto">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/187736669" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/187736669?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="media-right">
+<div class="box-allegato-new">
+<a class="btn-icona" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/187736569" target="_blank" title="Visualizza allegato">
+<i class="fa-regular fa-eye"></i>
+</a>
+<a class="btn-icona ml-2" data-tooltip="tooltip" href="https://web.spaggiari.eu/sdg2/Documenti/TSLS0001/187736569?download=1" target="_blank" title="Scarica allegato">
+<i class="fa-solid fa-download"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="modal fade" data-id="" id="modal_adesione" role="dialog" tabindex="-1">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Conferma adesione</h4>
+</div>
+<div class="modal-body">
+<p>Per questa comunicazione è richiesta un'adesione.<br/>
+Premere sul bottone CONFERMA per confermare la propria adesione.<br/><br/>
+Attenzione: è necessario aprire l'allegato (se presente) per dare la conferma di lettura.</p>
+</div>
+<div class="modal-footer">
+<button class="btn btn-default" data-dismiss="modal" id="annulla_adesione" type="button">Annulla</button>
+<button class="btn color-box" id="conferma_adesione" type="button">Conferma</button>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" data-id="" id="modal_conferma" role="dialog" tabindex="-1">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Conferma per accettazione</h4>
+</div>
+<div class="modal-body">
+<p>Per questa comunicazione è richiesta una conferma di accettazione.<br/>
+Premere sul bottone CONFERMA per accettare.<br/><br/>
+Attenzione: la scelta non sarà modificabile.</p>
+</div>
+<div class="modal-footer">
+<button class="btn btn-default" data-dismiss="modal" id="annulla_adesione2" type="button">Annulla</button>
+<button class="btn color-box" id="conferma_adesione2" type="button">Conferma</button>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" data-id="" id="modal_risposta" role="dialog" tabindex="-1">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Invia risposta</h4>
+</div>
+<div class="modal-body">
+<p>Per questa comunicazione è richiesta una risposta.<br/>
+Scrivere la risposta nel campo di testo sottostante e premere sul bottone CONFERMA per confermare la propria adesione.</p><br/>
+<div class="form-group">
+<textarea class="form-control w-100" id="testo_risposta"></textarea>
+<label class="w-100" for="testo_risposta">Inserire qui la risposta</label>
+</div>
+<p>Attenzione: è necessario aprire l'allegato (se presente) per dare la conferma di lettura.</p>
+</div>
+<div class="modal-footer">
+<button class="btn btn-default" data-dismiss="modal" id="annulla_risposta" type="button">Annulla</button>
+<button class="btn color-box" id="conferma_risposta" type="button">Conferma</button>
+</div>
+</div>
+</div>
+</div>
+<section aria-label="Banner dei cookie" class="cookiebar-container" role="alert">
+<div class="cookiebar" tabindex="1">
+<p>
+Questo sito o gli strumenti terzi da questo utilizzati si avvalgono di cookie necessari al funzionamento ed utili alle finalità illustrate nella
+<a class="text-white" href="/cookie-policy"><strong>COOKIE POLICY</strong></a>.<br/>
+</p>
+<div class="cookiebar-buttons">
+<button class="cookiebar-btn cookiebar-custom" data-target="#cookie-modal" data-toggle="modal" tabindex="4">Personalizza</button>
+<button class="cookiebar-btn cookiebar-ko ml-4" tabindex="3">Rifiuta tutti<span class="sr-only"> i cookies</span></button>
+<button class="cookiebar-btn cookiebar-ok ml-4" tabindex="2">Accetta tutti<span class="sr-only"> i cookies</span></button>
+</div>
+</div>
+</section>
+<div class="modal fade" data-backdrop="static" data-keyboard="false" id="cookie-modal" role="dialog">
+<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<span class="modal-title"><strong>Gestione cookie</strong></span>
+</div>
+<div class="modal-body">
+<div class="row mb-3">
+<div class="col-12">
+<p>In questa schermata è possibile scegliere quali cookie consentire.<br/>
+I cookie necessari sono quelli che consentono il funzionamento della piattaforma e non è possibile disabilitarli.<br/>
+Per conoscere quali sono i cookie necessari al funzionamento potete visionare la <a href="/cookie-policy"><strong>COOKIE POLICY</strong></a>.</p>
+</div>
+</div>
+<form id="cookie_form">
+<input name="act" type="hidden" value="cookieConsent"/>
+<div class="collapse-div" id="accordionDiv1" role="tablist">
+<div class="collapse-header" id="headingA0">
+<div class="row">
+<div class="col-3 col-md-1">
+<button aria-controls="accordion0" aria-expanded="false" data-target="#accordion0" data-toggle="collapse" type="button">
+</button>
+</div>
+<div class="col-9 col-md-11">
+<div class="form-check form-check-group mb-1">
+<div class="toggles">
+<label for="toggle1">
+Cookie necessari per il funzionamento
+<input checked="" disabled="" id="toggle1" type="checkbox"/>
+<span class="lever"></span>
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div aria-labelledby="headingA0" class="collapse" data-parent="#accordionDiv1" id="accordion0" role="tabpanel">
+<div class="collapse-body">
+I cookie necessari per il funzionamento non possono essere disabilitati. È possibile consultare l'elenco nella pagina della cookie policy.
+</div>
+</div>
+<div class="collapse-header" id="headingA2">
+<div class="row">
+<div class="col-3 col-md-1">
+<button aria-controls="accordion2" aria-expanded="false" data-target="#accordion2" data-toggle="collapse" type="button">
+</button>
+</div>
+<div class="col-9 col-md-11">
+<div class="form-check form-check-group mb-1">
+<div class="toggles">
+<label for="toggle2">
+youtube.com
+<input checked="" data-id="1,3,5" id="toggle2" type="checkbox"/>
+<span class="lever"></span>
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div aria-labelledby="headingA2" class="collapse" data-parent="#accordionDiv1" id="accordion2" role="tabpanel">
+<div class="collapse-body">
+<div class="row d-none d-md-flex">
+<div class="col-md-3">
+<strong>Nome</strong>
+</div>
+<div class="col-md-2">
+<strong>Tipologia</strong>
+</div>
+<div class="col-md-2">
+<strong>Proprieta</strong>
+</div>
+<div class="col-md-3">
+<strong>Descrizione</strong>
+</div>
+<div class="col-md-2">
+<strong>Durata</strong>
+</div>
+</div>
+<div class="row mt-2">
+<div class="col-12 col-md-3">
+<strong class="d-md-none">Nome:</strong> YSC
+</div>
+<div class="col-12 col-md-2">
+<strong class="d-md-none">Tipologia:</strong> analitico
+</div>
+<div class="col-12 col-md-2">
+<strong class="d-md-none">Proprieta:</strong> Terza-parte
+</div>
+<div class="col-12 col-md-3">
+<strong class="d-md-none">Descrizione:</strong> Questo cookie è impostato da YouTube per tenere traccia delle visualizzazioni dei video incorporati.
+</div>
+<div class="col-12 col-md-2">
+<strong class="d-md-none">Durata:</strong> Sessione
+</div>
+</div>
+<div class="row mt-2">
+<div class="col-12 col-md-3">
+<strong class="d-md-none">Nome:</strong> VISITOR_INFO1_LIVE
+</div>
+<div class="col-12 col-md-2">
+<strong class="d-md-none">Tipologia:</strong> analitico
+</div>
+<div class="col-12 col-md-2">
+<strong class="d-md-none">Proprieta:</strong> Terza-parte
+</div>
+<div class="col-12 col-md-3">
+<strong class="d-md-none">Descrizione:</strong> Questo cookie è impostato da Youtube per tenere traccia delle preferenze dell'utente per i video di Youtube incorporati nei siti; può anche determinare se il visitatore del sito web sta utilizzando la nuova o la vecchia versione dell'interfaccia di Youtube.
+</div>
+<div class="col-12 col-md-2">
+<strong class="d-md-none">Durata:</strong> 6 mesi
+</div>
+</div>
+<div class="row mt-2">
+<div class="col-12 col-md-3">
+<strong class="d-md-none">Nome:</strong> DEVICE_INFO
+</div>
+<div class="col-12 col-md-2">
+<strong class="d-md-none">Tipologia:</strong> analitico
+</div>
+<div class="col-12 col-md-2">
+<strong class="d-md-none">Proprieta:</strong> Terza-parte
+</div>
+<div class="col-12 col-md-3">
+<strong class="d-md-none">Descrizione:</strong> YouTube utilizza questo cookie per identificare la tipologia di device utilizzata dall'utente.
+</div>
+<div class="col-12 col-md-2">
+<strong class="d-md-none">Durata:</strong> 6 mesi
+</div>
+</div>
+</div>
+</div>
+</div>
+</form>
+</div>
+<div class="modal-footer">
+<button class="btn btn-secondary cookiebar-ok" type="button">Accetta tutti</button>
+<button class="btn btn-primary btn-cookie-save" type="button">Salva le preferenze</button>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="it-footer">
+<div class="it-footer-main">
+<div class="container">
+<div class="py-2 border-white border-top">
+<div class="row mb-3">
+<div class="col-12 col-lg-4">
+<img alt="Logo EU" src="/pvw2/img/logo-eu-black.svg" style="height: 100px;"/>
+</div>
+<div class="col-12 col-lg-8">
+<img alt="Logo Repubblica" class="ml-sm-2 mt-lg-2 mt-xl-2" src="/pvw2/img/logo-repubblica-black.svg" style="height: 60px;"/>
+Liceo Scientifico Galileo Galilei Trieste
+</div>
+</div>
+<div class="row">
+<div class="col-lg-8">
+<h3>Contatti</h3>
+<p><strong>Liceo Scientifico Galileo Galilei Trieste</strong></p>
+<div class="pb-2 pr-2">
+<ul class="list">
+<li><i aria-hidden="true" class="fa fa-map-marked-alt"></i> Via Goffredo Mameli 4, 34139 Trieste (TS)</li>
+<li><i aria-hidden="true" class="fa fa-phone"></i> Tel: <a href="tel: 040390270 - 040390290"> 040390270 - 040390290</a></li>
+<li><i aria-hidden="true" class="fa fa-envelope"></i> Email: <a href="mailto:TSPS02000R@istruzione.it">TSPS02000R@istruzione.it<span class="sr-only">Link per inviare una mail</span></a></li>
+<li><i aria-hidden="true" class="fa fa-mail-bulk"></i> PEC: <a href="mailto:TSPS02000R@pec.istruzione.it">TSPS02000R@pec.istruzione.it<span class="sr-only">Link per inviare una mail</span></a></li>
+<li><i aria-hidden="true" class="fa fa-address-card"></i> C.F.: 80023500327</li>
+<li><i aria-hidden="true" class="fa fa-money-check"></i> IBAN: IT92E0623002202000015301229</li>
+</ul>
+</div>
+<div class="pb-2 pr-2">
+<ul class="list">
+<li>URP: Ufficio Didattica 040390270/90</li>
+</ul>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 pb-2">
+<div class="p-4">
+ 
+</div>
+<div class="pb-2">
+<div class="important-link">
+<h3 class="sr-only">Sezione Link Utili</h3>
+<ul class="it-footer-small-prints-list list-inline mb-0 d-flex flex-column flex-md-row link-flex">
+<li class="list-inline-item margin-flex"><a href="/cookie-policy" title="Cookie Policy">Cookie policy</a></li>
+<li class="list-inline-item margin-flex"><a data-element="legal-notes" href="/note-legali" title="Note Legali">Note legali</a></li>
+<li class="list-inline-item margin-flex"><a data-element="privacy-policy-link" href="/privacy" title="Privacy">Informativa Privacy</a></li>
+<li class="list-inline-item margin-flex"><a href="/urp" title="URP">Ufficio Relazioni con il Pubblico</a></li>
+<li class="list-inline-item margin-flex"><a data-element="accessibility-link" href="https://form.agid.gov.it/view/700271a0-798e-11ef-80a8-ed6ffb978378/" target="_blank" title="Dichiarazione di accessibilità">Dichiarazione di accessibilità</a></li>
+<li class="list-inline-item margin-flex"><a href="https://form.agid.gov.it/view/8fc0e1c0-0bc9-11f0-a32a-af46290da29e" target="_blank" title="Obiettivi di accessibilità">Obiettivi di accessibilità</a></li>
+<li class="list-inline-item margin-flex"><a href="/whistleblowing" title="Whistleblowing">Whistleblowing</a></li>
+<li class="list-inline-item margin-flex"><a data-target="#cookie-modal" data-toggle="modal" href="#" title="Gestione consensi cookie">Gestione consensi cookie</a></li>
+</ul>
+</div>
+</div>
+<div class="pt-4 pb-2">
+<ul class="list-inline text-left social">
+<li>Pagina visualizzata <span class="footer-visite-count">101117</span> volte</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="it-footer-small-prints clearfix">
+<div class="container">
+<h3 class="sr-only">Sezione Copyright</h3>
+<div class="box-copyright">
+<div class="primavisione-web">
+<img alt="Logo Prima Visione Web" class="logo-pvw" src="/pvw2/img/logo.png"/>
+</div>
+<div class="pvw_footer">
+Copyright 2025 | Engineered and powered by Gruppo Spaggiari Parma S.p.A. | Divisione Publishing &amp; New Social Media<br/>
+<a class="footer-disclaimer" href="/disclaimer">Disclaimer trattamento dati personali</a>
+</div>
+</div>
+</div>
+</div>
+<div class="d-flex align-items-center">
+<a aria-hidden="true" class="back-to-top shadow" data-attribute="back-to-top" href="#">
+<svg class="icon icon-light"><use xlink:href="/pvw2/img/sprite.svg#it-arrow-up"></use></svg><span class="sr-only">Back to top</span>
+</a>
+</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
