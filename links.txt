@@ -144,12 +144,115 @@ https://www.usp-rieti.it/228-2/
 # Genova
 https://www.istruzionegenova.gov.it/pagine/interpelli-ge
 # Savona
+https://www.istruzionesavona.gov.it/pagine/interpelli-sv---as-2024-2025
+https://www.istruzionesavona.gov.it/pagine/interpelli-sv---as-2025-2026
+# La Spezia
+https://www.istruzionelaspezia.gov.it/pagine/interpelli-sp---as-2024-2025
+https://www.istruzionelaspezia.gov.it/pagine/interpelli-sp---as-2025-2026
+# Imperia
+https://www.istruzioneimperia.gov.it/pagine/interpelli-im---as-2024-2025
+https://www.istruzioneimperia.gov.it/pagine/interpelli-im---as-2025-2026
 
+# LOMBARDIA
+# Bergamo
+https://www.mim.gov.it/web/bergamo/comunicazioni?p_p_id=1_WAR_miurmulticategoriesnavigator100SNAPSHOT&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_r_p_categoryIds=9089922
+# Brescia
+https://www.mim.gov.it/web/brescia/comunicazioni?p_p_id=1_WAR_miurmulticategoriesnavigator100SNAPSHOT&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_r_p_categoryIds=9225841
+# Como
+https://www.mim.gov.it/web/como/comunicazioni?p_p_id=1_WAR_miurmulticategoriesnavigator100SNAPSHOT&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_r_p_categoryIds=9150869%2C9151259%2C9151203
+# Cremona
+https://www.mim.gov.it/web/cremona/comunicazioni?p_p_id=1_WAR_miurmulticategoriesnavigator100SNAPSHOT&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_r_p_categoryIds=9095660
+# Lecco
+https://www.mim.gov.it/web/lecco/comunicazioni?p_p_id=1_WAR_miurmulticategoriesnavigator100SNAPSHOT&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_r_p_categoryIds=9099028
+# Lodi
+https://www.mim.gov.it/web/lodi/comunicazioni?p_p_id=1_WAR_miurmulticategoriesnavigator100SNAPSHOT&p_p_state=normal&p_p_mode=view&p_r_p_categoryIds=9100344&p_p_lifecycle=0
+# Mantova
+https://www.mim.gov.it/web/mantova/comunicazioni?p_p_id=1_WAR_miurmulticategoriesnavigator100SNAPSHOT&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_r_p_categoryIds=9100669
+# Milano
+https://www.mim.gov.it/web/milano/comunicazioni?p_p_id=1_WAR_miurmulticategoriesnavigator100SNAPSHOT&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_r_p_categoryIds=9102616
+# Monza/Brianza
+https://www.mim.gov.it/web/monza-brianza/comunicazioni?p_p_id=1_WAR_miurmulticategoriesnavigator100SNAPSHOT&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_r_p_categoryIds=9105756
+# Pavia
+https://www.mim.gov.it/web/pavia/comunicazioni?p_p_id=1_WAR_miurmulticategoriesnavigator100SNAPSHOT&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_r_p_categoryIds=9111826
+# Sondrio
+https://www.mim.gov.it/web/sondrio/comunicazioni?p_p_id=1_WAR_miurmulticategoriesnavigator100SNAPSHOT&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_r_p_categoryIds=9114242
+# Varese
+https://www.mim.gov.it/web/varese/comunicazioni?p_p_id=1_WAR_miurmulticategoriesnavigator100SNAPSHOT&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_r_p_categoryIds=9257875
 
-https://unica.istruzione.gov.it/sic?from=dettaglio
-https://www.mim.gov.it/usr
-https://www.istruzioneliguria.gov.it/pagine/interpelli-
+# MARCHE
+https://www.mim.gov.it/web/miur-usr-marche/ricerca?q=interpello&scope=this-site
+# Ancona
+https://www.istruzione-ancona.it/
+# Ascoli Piceno e Fermo
+https://www.uspascolipiceno.it/wordpress/interpelli/
+# Macerata
+http://www.uspmc.sinp.net/documenti-uspmc-cms/?cat-documenti-uspmc=interpelli
+# Pesaro e Urbino
+https://www.usppesarourbino.it/category/interpelli/
 
+# MOLISE
+# Campobasso
+https://atcampobasso.it/?s=interpello
+# Isernia
+https://atpisernia.it/category/interpelli
 
+# PIEMONTE
+# Alessandria
+https://servizi.istruzionepiemonte.it/interpello2024/ric_interpello_ambito_al.php
+# Asti
+https://servizi.istruzionepiemonte.it/interpello2024/ric_interpello_ambito_at.php
+# Torino
+https://servizi.istruzionepiemonte.it/interpello2024/ric_interpello_ambito_to.php
+https://www.istruzionepiemonte.it/torino/interpelli-supplenze/
+# Cuneo
+https://servizi.istruzionepiemonte.it/interpello2024/ric_interpello_ambito_cn.php
+# Novara
+https://www.istruzionepiemonte.it/novara/interpelli-supplenze/
+https://servizi.istruzionepiemonte.it/interpello2024/ric_interpello_ambito_no.php
+# Vercelli
+https://servizi.istruzionepiemonte.it/interpello2024/ric_interpello_ambito_vc.php
+# Verbano Cusio Ossola
+https://servizi.istruzionepiemonte.it/interpello2024/ric_interpello_ambito_vb.php
+# Biella
+https://www.istruzionepiemonte.it/biella/interpelli-supplenze/
+https://servizi.istruzionepiemonte.it/interpello2024/ric_interpello_ambito_bi.php
 
+# PUGLIA
+# Foggia
+https://www.ustfoggia.it/
+# Barletta-Andria-Trani
+https://www.istruzionebat.it/?s=interpello&submit=
+# Taranto
+https://www.usptaranto.it/search/interpellO/
+# Brindisi
+https://www.istruzionebrindisi.it/category/interpelli/
+# Bari
+https://www.uspbari.it/usp/pubblicazione-decreti-e-sentenze
+# Lecce
+https://www.ustlecce.it/index.php/interpelli
+
+# TOSCANA
+# Firenze
+https://www.ust.fi.it/mese/interpelli/
+# Massa carrara
+https://www.ustms.it/category/docenti/interpelli/
+# Arezzo
+https://www.arezzoistruzione.it/usparezzo/index.php/interpelli
+# Grosseto
+https://www.ufficioscolasticogrosseto.it/uff7/index.php/interpelli-provincia-gr
+# Livorno
+https://www.ustli.it/usp_livorno/index.php/docenti/interpelli
+# Lucca
+http://www.ustlucca.it/category/notizie-in-primo-piano/
+http://www.ustlucca.it/category/notizie/
+# Prato
+https://www.ufficioscolasticoprovinciale.prato.it/Mese/novita/
+# Siena
+https://www.uspsi.it/?cat=271
+# Pisa
+https://www.toscana-istruzione.it/atpisa/interpelli-2/
+# Pistoia
+https://www.ufficioscolasticoprovinciale.pistoia.it/comunicazioni/comunicazioni-docenti/interpelli-docenti/
+
+# UMBRIA
 
