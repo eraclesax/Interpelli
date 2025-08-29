@@ -43,7 +43,8 @@ class Command(BaseCommand):
                 self.stdout.write(self.style.SUCCESS(f"Aggiunto: {link}"))
             else:
                 if reset:
-                    page.last_content_hash = None
+                    page.last_html = None
+                    page.ignored_lines = None
                     page.has_changed = False
                     page.save()
                     self.stdout.write(
