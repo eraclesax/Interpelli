@@ -19,29 +19,39 @@ class Command(BaseCommand):
             action="store_true",
             help="Resetta gli hash e i flag delle pagine già presenti",
         )
+        parser.add_argument(
+            "--clear",
+            action="store_true",
+            help="Elimina i link presenti in database ma non presenti nella lista",
+        )
 
     def handle(self, *args, **options):
         file_path = options["file_path"]
         reset = options["reset"]
+        clear = options["clear"]
 
         # === Leggi i link dal file ===
         try:
             with open(file_path, "r") as f:
-                links = {
+                links = [
                     line.strip()
                     for line in f
                     if line.strip() and not line.strip().startswith("#")
-                }
+                ]
         except FileNotFoundError:
             self.stdout.write(self.style.ERROR(f"File non trovato: {file_path}"))
             return
 
-        # === Aggiungi/Aggiorna ===
+        # === Aggiungi/Resetta ===
+        created_count = 0
+        updated_count = 0
         for link in links:
             page, created = MonitoredPage.objects.get_or_create(url=link)
             if created:
+                created_count += 1
                 self.stdout.write(self.style.SUCCESS(f"Aggiunto: {link}"))
             else:
+                updated_count += 1
                 if reset:
                     page.last_html = None
                     page.ignored_lines = None
@@ -52,15 +62,21 @@ class Command(BaseCommand):
                     )
                 else:
                     self.stdout.write(self.style.WARNING(f"Già presente: {link}"))
+        if clear:
+            # === Rimuovi i link non più nel file ===
+            existing_links = set(MonitoredPage.objects.values_list("url", flat=True))
+            to_delete = existing_links - set(links)
 
-        # === Rimuovi i link non più nel file ===
-        existing_links = set(MonitoredPage.objects.values_list("url", flat=True))
-        to_delete = existing_links - links
-
-        if to_delete:
-            deleted_count, _ = MonitoredPage.objects.filter(url__in=to_delete).delete()
-            for d in to_delete:
-                self.stdout.write(self.style.ERROR(f"Rimosso: {d}"))
-            self.stdout.write(self.style.ERROR(f"Totale rimossi: {deleted_count}"))
+            if to_delete:
+                deleted_count, _ = MonitoredPage.objects.filter(url__in=to_delete).delete()
+                for d in to_delete:
+                    self.stdout.write(self.style.ERROR(f"Rimosso: {d}"))
+                self.stdout.write(self.style.ERROR(f"Totale rimossi: {deleted_count}"))
+            else:
+                self.stdout.write(self.style.ERROR("Nessun link da rimuovere"))
+        if reset:
+            self.stdout.write(self.style.WARNING(f"Totale resettati: {updated_count}"))
         else:
-            self.stdout.write(self.style.SUCCESS("Nessun link da rimuovere"))
+            self.stdout.write(self.style.WARNING(f"Totale non modificati: {updated_count}"))
+        self.stdout.write(self.style.SUCCESS(f"Totale aggiunti: {created_count}"))
+        

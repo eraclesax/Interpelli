@@ -2,7 +2,7 @@
 from django.core.management.base import BaseCommand
 from time import sleep
 from checker.models import MonitoredPage
-from checker.utils import fetch_clean_html
+from checker.utils import fetch_clean_html_from_url
 
 class Command(BaseCommand):
     help = "Addestra il sistema a riconoscere falsi positivi salvando i numeri di riga instabili"
@@ -13,11 +13,18 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         delay = options["delay"]
-        
-        for page in MonitoredPage.objects.all():
-            html1 = fetch_clean_html(page.url)
-            sleep(delay)  # piccolo delay per sicurezza
-            html2 = fetch_clean_html(page.url)
+        counter = 0
+        total = MonitoredPage.objects.count()
+        for page in MonitoredPage.objects.all().order_by('pk'):
+            counter += 1
+            try:
+                html1 = fetch_clean_html_from_url(page.url)
+                sleep(delay)  # piccolo delay per sicurezza
+                html2 = fetch_clean_html_from_url(page.url)
+            except Exception as e:
+                message = f"{counter}/{total} Error with url: {page.url}:\n{e}"
+                self.stdout.write(self.style.ERROR(message))
+                continue
 
             lines1 = html1.splitlines()
             lines2 = html2.splitlines()
@@ -34,5 +41,5 @@ class Command(BaseCommand):
             page.save()
 
             self.stdout.write(self.style.SUCCESS(
-                f"{page.url}: {len(ignored)} righe instabili ignorate"
+                f"{counter}/{total} {page.url}: {len(ignored)} righe instabili ignorate"
             ))
